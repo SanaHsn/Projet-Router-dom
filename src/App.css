@@ -1,0 +1,197 @@
+body{
+    background-color: rgb(233, 231, 228);
+    color: rgb(226, 226, 226);
+}
+.App{
+    
+}
+Link{
+    list-style: none;
+}
+.navbar{
+    /* width: 100vw; */
+}
+.nav{
+    /* width: 100%; */
+    background-color: white;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 0px 50px;
+}
+.nav2{
+    background-color: rgb(53, 53, 53);
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    color: rgb(226, 226, 226);
+    padding: 0px 50px;
+
+}
+.darkmode {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    padding: 8px;
+}
+.bigHome{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.card{
+    width: 240px;
+    height: 340px;
+    box-shadow:0px 0px 10px -2px rgb(112, 112, 112) ;
+    border: none;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.inputSearch{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px ;
+}
+.search input{
+    width: 500px;
+    border: none;
+    padding: 15px;
+    color: rgb(79, 78, 78);
+    box-shadow:0px 2px 10px -2px rgb(89, 88, 88) ;
+    border-radius: 8px;
+    outline: none;
+}
+.search input:focus{
+    border: none;
+}
+.home{
+    display: block;
+}
+/* Images Pays */
+.imgPays{
+    width: 100%;
+    height: 150px;
+    
+}
+.infos{
+    padding-left: 10px;
+}
+
+.card p{
+    margin: 0;
+    line-height: 25px;
+    font-size: 18px;
+}
+.bigPays{
+    padding: 50px;
+}
+.pays{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    gap: 60px;
+    margin: auto;
+}
+.imgInfos{
+    width: 400px;
+    height: 300px;
+}
+.dark {
+    background-color: rgb(37, 37, 37);
+    color: rgb(226, 226, 226);
+    }
+.light {
+    background-color: rgb(233, 231, 228);
+    color: black;
+}
+.back{
+    margin-bottom: 50px;
+}
+.back button{
+    width: 60px;
+    border: none;
+    padding: 10px;
+    color: rgb(79, 78, 78);
+    box-shadow:0px 2px 10px -2px rgb(89, 88, 88) ;
+    border-radius: 6px;
+}
+.contries{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-wrap: wrap;
+}
+.btnContries {
+    border: none;
+    padding: 8px;
+    border-radius: 6px;
+    background-color: white;
+    margin-left: 10px;
+    height: 30px;
+}
+.FullInfos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+}
+.allInfos{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 500px;
+}
+select{
+    border: none;
+    padding: 15px;
+    color: rgb(79, 78, 78);
+    box-shadow:0px 2px 10px -2px rgb(89, 88, 88) ;
+    border-radius: 8px;
+    outline: none;
+}
+
+@media only screen  and (max-width: 425px){
+    .search input{
+        max-width: max-content;
+    }
+    .imgInfos{
+        width: 350px;
+        height: 200px;
+    }
+    .pays{
+        gap: 20px;
+    }
+    
+}
+@media only screen  and (max-width: 375px){
+    .inputSearch{
+        flex-wrap: wrap;
+    }
+    .titre h1{
+        font-size: 20px;
+    }
+    .nav{
+        padding: 0 20px;
+    }.nav2{
+        padding: 0 20px;
+    }
+    .darkmode {
+        width: 80px;
+        padding: 5px;
+    }
+    .imgInfos{
+        width: 280px;
+    }
+    .bigPays{
+        padding: 30px;
+    }
+    
+}
